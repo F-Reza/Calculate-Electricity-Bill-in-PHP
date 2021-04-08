@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+<!--/*---------------------
+Authorized::Forhad Reza
+-----------*/-->
+<h3> Most frequent element</h3>
+<script type="text/javascript">
+
+var arr1=['Cow', 'Dog', 'Cat', 'Cow', 'Cat', 'Cat'];
+//var arr1=['Hello', 'Hi', 'Hello', 'Hi', 'Hi'];
+var mf = 1;
+var m = 0;
+var item;
+
+for (var i = 0; i < arr1.length; i++) {
+  for (var j = i; j < arr1.length; j++) {
+    if (arr1[i] == arr1[j]) m++;
+    if (mf < m) {
+      mf = m;
+      item = arr1[i];
+    }
+  }
+  m = 0;
+}
+document.write("Given :  " + arr1 +"<br><br>");
+document.write(item+" ( " +mf +" times ) ") ;	
+		
+</script>
+
+</body>
+</html>

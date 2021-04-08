@@ -1,0 +1,120 @@
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+#page-wrap, #output{
+	margin:0 auto;
+	width:600px;
+	height:auto;
+	margin-bottom:5px;
+	position:relative;
+}
+.box1 h2{
+	text-align:center;
+	font-size:24px;
+}
+.box1{
+	height:68px;
+	color:#000;
+	background:#009688;
+	padding:2px 0 5px 0;
+	border:1px solid black;
+}
+.box2{
+	height:40px;
+    background:#607D8B;
+    padding:15px 25px 0 25px;
+    font-size:20px;
+}
+.box3{
+	height:40px;
+    background:#a5a3a9;
+    padding:15px 25px 0 25px;
+    font-size:20px;
+}
+.box4{
+	height:40px;
+    background:#607D8B;
+    padding:15px 25px 0 25px;
+    font-size:20px;
+}
+.box5{
+	height:40px;
+    background:#a5a3a9;
+    padding:15px 25px 0 25px;
+    font-size:20px;
+}
+.box6{
+	height:46px;
+	font-size:20px;
+    background:#009688;
+    padding:15px 25px 0 25px;
+}
+input[type=text],input[type=number]{
+	width:220px;
+	height:23px;
+	font-size:;
+}
+
+.box2 input[type=text]{
+	position:relative;
+	left:35px;
+}
+.box3 input[type=text]{
+	position:relative;
+	left:57px;
+}
+.box4 input[type=number]{
+	position:relative;
+	left:46px;
+}
+.box5 input[type=number]{
+	position:relative;
+	left:57px;
+}
+
+
+input[type=submit]{
+	position:relative;
+	background:#c5dce6;
+	border-radius:10px;
+	width:125px;
+	height:30px;
+	left:185px;
+}
+input[type=reset]{
+	position:relative;
+	background:#c5dce6;
+	border-radius:10px;
+	width:75px;
+	height:30px;
+	left:195px;
+}
+input[type=submit]:hover{
+	color:#fff;
+	background:#000;
+	cursor:pointer;
+}
+ input[type=reset]:hover{
+	color:#fff;
+	background:#F06292;
+	cursor:pointer;
+ }
+.tab p{
+	display:inline;
+}.T{
+	position:relative;
+	color:#fff;
+	left:152px;
+}
+.p1{left:173px;}
+.p2{left:160px;}
+.p3{left:170px;}
+.p4{left:176px;}
+.p5{left:236px;}
+
+
+/*---------------------
+Authorized::Forhad Reza
+-----------*/
+ 
+ 
